@@ -5,7 +5,6 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import { useNavigate } from "react-router-dom";
 import worksData from "../data/worksData";
-import bgVideo from "../assets/Home/Video/IMG_7817.mp4";
 
 export default function HomePage() {
   const navigate = useNavigate();

@@ -2,13 +2,13 @@
 import { motion } from "framer-motion";
 
 const logos = [
-  "src/assets/medroc-removebg-preview.png",
-  "src/assets/rescue-removebg-preview.png",
-  "src/assets/office-removebg-preview.png",
-  "src/assets/black-removebg-preview.png",
-  "src/assets/mayor-removebg-preview.png",
-  "src/assets/AMN-removebg-preview.png",
-  "src/assets/walta-removebg-preview.png",
+  "src/assets/LogoCarousel/medroc-removebg-preview.png",
+  "src/assets/LogoCarousel/rescue-removebg-preview.png",
+  "src/assets/LogoCarousel/office-removebg-preview.png",
+  "src/assets/LogoCarousel/black-removebg-preview.png",
+  "src/assets/LogoCarousel/mayor-removebg-preview.png",
+  "src/assets/LogoCarousel/AMN-removebg-preview.png",
+  "src/assets/LogoCarousel/walta-removebg-preview.png",
 ]; // replace with your client logos
 
 export default function LogoCarousel() {
