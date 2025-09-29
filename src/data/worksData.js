@@ -3,7 +3,7 @@ import work3 from "../assets/Agrofood/7A6A4291.JPG";
 import work4 from "../assets/Fintex/7A6A9285.JPG";
 import work5 from "../assets/ALEC/7A6A2132.JPG";
 import work6 from "../assets/Gambela/IRC Gambela 2/006A0965.JPG";
-import work7 from "../assets/Conso/IRC Conso2/006A0171.JPG";
+import work7 from "../assets/Conso/IRC Conso 2/006A0171.JPG";
 import work8 from "../assets/Deder/IRC Deder 2/006A1347.JPG";
 import work9 from "../assets/Deder/IRC Harere Deder/4B6A4935.JPG";
 import work10 from "../assets/Conso/IRC Conso/4B6A6218.JPG";
