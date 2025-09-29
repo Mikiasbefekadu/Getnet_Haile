@@ -1,5 +1,4 @@
 import work1 from "../assets/editing-7320126_1920.jpg";
-import work2 from "../assets/editing-7320126_1920.jpg";
 import work3 from "../assets/Agrofood/7A6A4291.JPG";
 import work4 from "../assets/Fintex/7A6A9285.JPG";
 import work5 from "../assets/ALEC/7A6A2132.JPG";
@@ -94,13 +93,13 @@ import imgcn9 from "../assets/Conso/IRC Conso/006A0239.JPG";
 import imgcn10 from "../assets/Conso/IRC Conso/006A0328.JPG"; 
 import imgcn11 from "../assets/Conso/IRC Conso/006A0726.JPG"; 
 
-import imgcn21 from "../assets/Conso/IRC Conso2/4B6A6274.JPG";
-import imgcn22 from "../assets/Conso/IRC Conso2/4B6A6311.JPG";
-import imgcn23 from "../assets/Conso/IRC Conso2/4B6A6385.JPG";
-import imgcn24 from "../assets/Conso/IRC Conso2/4B6A6413.JPG";
-import imgcn25 from "../assets/Conso/IRC Conso2/006A0171.JPG";
-import imgcn26 from "../assets/Conso/IRC Conso2/006A0674.JPG";
-import imgcn27 from "../assets/Conso/IRC Conso2/006A0230.JPG";
+import imgcn21 from "../assets/Conso/IRC Conso 2/4B6A6274.JPG";
+import imgcn22 from "../assets/Conso/IRC Conso 2/4B6A6311.JPG";
+import imgcn23 from "../assets/Conso/IRC Conso 2/4B6A6385.JPG";
+import imgcn24 from "../assets/Conso/IRC Conso 2/4B6A6413.JPG";
+import imgcn25 from "../assets/Conso/IRC Conso 2/006A0171.JPG";
+import imgcn26 from "../assets/Conso/IRC Conso 2/006A0674.JPG";
+import imgcn27 from "../assets/Conso/IRC Conso 2/006A0230.JPG";
 
 
 
