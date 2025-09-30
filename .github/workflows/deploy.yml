@@ -25,13 +25,13 @@ jobs:
         run: npm run build
 
       - name: Upload Assets as Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: assets
           path: src/assets # Update this to your actual assets path
 
       - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build
           path: build
