@@ -1,4 +1,4 @@
-import work1 from "../assets/editing-7320126_1920.jpg";
+import work1 from "../assets/editing.jpg";
 import work3 from "../assets/Agrofood/7A6A4291.JPG";
 import work4 from "../assets/Fintex/7A6A9285.JPG";
 import work5 from "../assets/ALEC/7A6A2132.JPG";
