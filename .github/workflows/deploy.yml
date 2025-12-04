@@ -24,17 +24,17 @@ jobs:
       - name: Build React app
         run: npm run build
 
-      - name: Upload Assets as Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: assets
-          path: src/assets # Update this to your actual assets path
-
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: build
-          path: build
+          path: dist  # Change this if your build output directory is different
+
+      - name: Upload Assets as Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: assets
+          path: src/assets  # Ensure this path is correct for your assets
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,5 +57,5 @@ jobs:
           server: ${{ secrets.CPANEL_FTP_SERVER }}
           username: ${{ secrets.CPANEL_FTP_USERNAME }}
           password: ${{ secrets.CPANEL_FTP_PASSWORD }}
-          local-dir: build
+          local-dir: dist  # Ensure this matches your build output folder
           server-dir: public_html/   # Adjust depending on your cPanel setup

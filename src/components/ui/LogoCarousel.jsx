@@ -2,20 +2,20 @@
 import { motion } from "framer-motion";
 
 const logos = [
-  "src/assets/LogoCarousel/medroc-removebg-preview.png",
-  "src/assets/LogoCarousel/rescue-removebg-preview.png",
-  "src/assets/LogoCarousel/office-removebg-preview.png",
-  "src/assets/LogoCarousel/black-removebg-preview.png",
-  "src/assets/LogoCarousel/mayor-removebg-preview.png",
-  "src/assets/LogoCarousel/AMN-removebg-preview.png",
-  "src/assets/LogoCarousel/walta-removebg-preview.png",
+  "assets/LogoCarousel/medroc-removebg-preview.png",
+  "assets/LogoCarousel/rescue-removebg-preview.png",
+  "assets/LogoCarousel/office-removebg-preview.png",
+  "assets/LogoCarousel/black-removebg-preview.png",
+  "assets/LogoCarousel/mayor-removebg-preview.png",
+  "assets/LogoCarousel/AMN-removebg-preview.png",
+  "assets/LogoCarousel/walta-removebg-preview.png",
 ]; // replace with your client logos
 
 export default function LogoCarousel() {
   return (
     <div className="w-full overflow-hidden bg-transparent py-10">
       <motion.div
-        className="flex gap-16"
+        className="flex gap-8 sm:gap-12 md:gap-16"
         animate={{ x: ["0%", "-100%"] }}
         transition={{
           repeat: Infinity,
@@ -29,7 +29,7 @@ export default function LogoCarousel() {
             <img
               src={logo}
               alt={`client-logo-${index}`}
-              className="h-20 w-auto object-contain opacity-80 hover:opacity-100 transition"
+              className="h-12 sm:h-16 md:h-20 w-auto object-contain opacity-80 hover:opacity-100 transition"
             />
           </div>
         ))}

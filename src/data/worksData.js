@@ -1,12 +1,162 @@
-import work1 from "../assets/editing.jpg";
-import work3 from "../assets/agrofood/7A6A4291.jpg";
-import work4 from "../assets/Fintex/7A6A9285.JPG";
-import work5 from "../assets/ALEC/7A6A2132.JPG";
-import work6 from "../assets/Gambela/IRC Gambela 2/006A0965.JPG";
-import work7 from "../assets/Conso/IRC Conso 2/006A0171.JPG";
-import work8 from "../assets/Deder/IRC Deder 2/006A1347.JPG";
-import work9 from "../assets/Deder/IRC Harere Deder/4B6A4935.JPG";
-import work10 from "../assets/Conso/IRC Conso/4B6A6218.JPG";
+const work1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846714/r3_result_vbxqig.webp";
+const work2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846720/r5_result_dxdxid.webp";
+const work3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4291_result_uers8e.webp";
+const work4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846341/av6_result_meewrz.webp";
+const work5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846310/7A6A2132_result_uivgae.webp";
+const work6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846659/m7_result_p4p1gq.webp";
+// import work7 from "/assets/Conso/IRC Conso 2/006A0171.JPG";
+const work8 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848759/006A1373_result_hmtlto.webp";
+const work9 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846515/4B6A4935_result_qqec27.webp";
+const work10 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846381/4B6A6218_result_dqnqmw.webp";
+const work11 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846677/mw1_result_prqfqx.webp";
+// import work12 from "/assets/Example/01.JPG";
+const work13 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846509/d7_result_py3qhd.webp"
+const work14 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846354/a5_result_dhjksc.webp"
+
+
+ 
+
+
+
+
+
+
+const img4291 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4291_result_uers8e.webp";
+const img4292 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4300_result_ekf26n.webp";
+const img4293 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846270/7A6A4378_result_a44oc7.webp";
+const img4294 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846270/7A6A4393_result_y9fisg.webp";
+const img4295 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4498_result_sqqjki.webp";
+const img4296 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4525_result_rhbfkj.webp";
+const img4297 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4618_result_cc8lry.webp";
+const img4298 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4649_result_kxpauu.webp";
+const img4299 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846271/7A6A4662_result_lp47vd.webp";
+const img4300 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846272/7A6A4698_result_ququbl.webp";
+const img4301 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846273/7A6A4776_result_ig3ytj.webp";
+const img4302 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846274/7A6A4978_result_oyyz2y.webp";
+const img4303 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846274/7A6A8971_result_krz4ws.webp";
+const img4304 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846274/7A6A8978_result_cgfgph.webp";
+const img4305 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846275/7A6A9007_result_onhs9b.webp";
+const img4306 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846276/7A6A9203_result_b2bgnh.webp";
+const img4307 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846276/7A6A9228_result_nrxrfq.webp";
+const img4308 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846277/7A6A9241_result_wz1i2u.webp";
+const img4309 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846277/7A6A9275_result_bfcluf.webp";
+const img4310 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846278/7A6A9356_result_jc6n2a.webp";
+const img4311 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846278/7A6A9360_result_ng3z86.webp";
+const img4312 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846278/7A6A9492_result_ugkmmb.webp";
+const img4313 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846279/7A6A9623_result_sxamfz.webp";
+const img4314 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846279/7A6A9698_result_vflpjs.webp";
+
+const img1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846312/7A6A2062_result_qkjzga.webp";
+const img2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846310/7A6A2132_result_uivgae.webp";
+const img3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846311/7A6A2268_result_hazgkj.webp";
+const img4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846311/7A6A2310_result_mqipip.webp";
+const img5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846313/7A6A2391_result_ae8gqb.webp";
+const img6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846313/7A6A2498_result_bl8myr.webp";
+const img7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846314/7A6A2638_result_elutvq.webp";
+const img8 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846323/7A6A2662_result_ry1jeo.webp";
+const img9 =  "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846324/7A6A2670_result_kw1ljx.webp";
+const img10 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846324/7A6A2721_result_bav2nl.webp";
+
+const imgm1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846644/m1_result_u3verd.webp";
+const imgm2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846646/m2_result_cd8cxs.webp";
+const imgm3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846649/m3_result_anhfuj.webp";
+const imgm4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846652/m4_result_pejesx.webp";
+const imgm5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846654/m5_result_glzzj3.webp";
+const imgm6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846656/m6_result_iv9rlf.webp";
+const imgm7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846659/m7_result_p4p1gq.webp";
+const imgm8 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846661/m8_result_njqtsr.webp";
+
+const imgGM1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848765/4B6A8097_result_iou5se.webp";
+const imgGM2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848743/006A0965_result_vswoys.webp";
+const imgGM3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848743/006A0997_result_zvcgim.webp";
+const imgGM4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848745/006A1054_result_mqxcau.webp";
+const imgGM5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848747/006A1066_result_nptglv.webp";
+const imgGM6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848749/006A1163_result_u8dlt2.webp";
+const imgGM7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848751/006A1193_result_aqieaj.webp";
+const imgGM8 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848754/006A1249_result_y3ymki.webp";
+const imgGM9 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848755/006A1277_result_xydmsr.webp";
+const imgGM10 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848757/006A1358_result_evc9wx.webp";
+const imgGM11 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848759/006A1373_result_hmtlto.webp";
+const imgGM12 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848761/006A1404_result_y4s3pi.webp";
+const imgGM13 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764848763/006A1449_result_ca2ajm.webp";
+
+const imghd1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846515/4B6A4935_result_qqec27.webp";
+const imghd2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846523/4B6A5197_result_pctnyn.webp";
+const imghd3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846525/4B6A5231_result_gsqfbs.webp";
+const imghd4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846512/006A0688_result_k1p4od.webp";
+const imghd5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846514/006A1077_result_ynyt53.webp"; 
+
+// import imgdd21 from "/assets/Deder/IRC Deder 2/006A0660.JPG"; 
+// import imgdd22 from "/assets/Deder/IRC Deder 2/006A1347.JPG"; 
+// import imgdd23 from "/assets/Deder/IRC Deder 2/006A1540.JPG"; 
+
+
+const imgcn1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846373/4B6A5747_result_ziap9m.webp";
+const imgcn2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846374/4B6A5799_result_tdcjtn.webp"; 
+const imgcn3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846376/4B6A5896_result_qbfnqi.webp"; 
+const imgcn4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846377/4B6A5952_result_x2ye6a.webp";  
+const imgcn5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846367/006A0128_result_zuqa4f.webp"; 
+const imgcn6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846379/4B6A5994_result_tote0v.webp"; 
+const imgcn7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846380/4B6A6147_result_ceipfp.webp"; 
+const imgcn8 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846381/4B6A6218_result_dqnqmw.webp"; 
+const imgcn9 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846368/006A0239_result_bodp3y.webp"; 
+const imgcn10 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846369/006A0328_result_arfpf4.webp"; 
+const imgcn11 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846371/006A0726_result_smmym9.webp"; 
+
+// import imgcn21 from "/assets/Conso/IRC Conso 2/4B6A6274.JPG";
+// import imgcn22 from "/assets/Conso/IRC Conso 2/4B6A6311.JPG";
+// import imgcn23 from "/assets/Conso/IRC Conso 2/4B6A6385.JPG";
+// import imgcn24 from "/assets/Conso/IRC Conso 2/4B6A6413.JPG";
+// import imgcn25 from "/assets/Conso/IRC Conso 2/006A0171.JPG";
+// import imgcn26 from "/assets/Conso/IRC Conso 2/006A0674.JPG";
+// import imgcn27 from "/assets/Conso/IRC Conso 2/006A0230.JPG";
+
+
+// import imggo1 from "/assets/Ethiopia/go1.jpg";
+// import imggo2 from "/assets/Ethiopia/go2.jpg";
+// import imggo3 from "/assets/Ethiopia/go3.jpg";
+// import imggo4 from "/assets/Ethiopia/go4.jpg";
+
+const imgmw1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846677/mw1_result_prqfqx.webp";
+const imgmw2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846682/mw2_result_qmvown.webp";
+const imgmw3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846680/mw3_result_iqmrud.webp";
+const imgmw4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846685/mw4_result_ldeu3j.webp";
+
+
+
+const imgd1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846435/d1_result_mddo8f.webp";
+const imgd2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846436/d2_result_iek79m.webp";
+const imgd3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846439/d3_result_pejxcx.webp";
+const imgd4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846441/d4_result_r9upwf.webp";
+const imgd5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846442/d5_result_srkdmc.webp";
+const imgd6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846508/d6_result_qfnbyd.webp";
+const imgd7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846509/d7_result_py3qhd.webp";
+
+
+const imga1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846348/a1_result_qmsinu.webp";
+const imga2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846350/a2_result_hnsqfl.webp";
+const imga3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846350/a3_result_rkx5ir.webp";
+const imga4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846351/a4_result_ovkbyn.webp";
+const imga5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846354/a5_result_dhjksc.webp";
+const imga6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846361/a6_result_fuuphn.webp";
+const imga7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846362/a7_result_zkd2a3.webp";
+
+
+const imgav1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846338/av1_result_ao3dez.webp";
+const imgav2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846338/av2_result_eqkyrs.webp";
+const imgav3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846339/av3_result_jt10fy.webp";
+const imgav4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846339/av4_result_vblly7.webp";
+const imgav5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846354/a5_result_dhjksc.webp";
+const imgav6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846341/av6_result_meewrz.webp";
+const imgav7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846340/av7_result_kppgnl.webp";
+
+const imgr1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846708/r1_result_ohnzku.webp";
+const imgr2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846711/r2_result_mi7xsg.webp";
+const imgr3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846714/r3_result_vbxqig.webp";
+const imgr4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846717/r4_result_bnotdw.webp";
+const imgr5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846720/r5_result_dxdxid.webp";
+const imgr6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846723/r6_result_bxnybw.webp";
+const imgr7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846727/r7_result_kiwgxs.webp";
 
 
 
@@ -14,92 +164,6 @@ import work10 from "../assets/Conso/IRC Conso/4B6A6218.JPG";
 
 
 
-
-import img4291 from "../assets/agrofood/7A6A4291.jpg";
-import img4292 from "../assets/agrofood/7A6A4300.jpg";
-import img4293 from "../assets/agrofood/7A6A4378.jpg";
-import img4294 from "../assets/agrofood/7A6A4393.jpg";
-import img4295 from "../assets/agrofood/7A6A4498.jpg";
-import img4296 from "../assets/agrofood/7A6A4525.jpg";
-import img4297 from "../assets/agrofood/7A6A4618.jpg";
-import img4298 from "../assets/agrofood/7A6A4649.jpg";
-import img4299 from "../assets/agrofood/7A6A4662.jpg";
-import img4300 from "../assets/agrofood/7A6A4698.jpg";
-import img4301 from "../assets/agrofood/7A6A4776.jpg";
-import img4302 from "../assets/agrofood/7A6A4978.jpg";
-import img4303 from "../assets/agrofood/7A6A8971.jpg";
-import img4304 from "../assets/agrofood/7A6A8978.jpg";
-import img4305 from "../assets/agrofood/7A6A9007.jpg";
-import img4306 from "../assets/agrofood/7A6A9203.jpg";
-import img4307 from "../assets/agrofood/7A6A9228.jpg";
-import img4308 from "../assets/agrofood/7A6A9241.jpg";
-import img4309 from "../assets/agrofood/7A6A9275.jpg";
-import img4310 from "../assets/agrofood/7A6A9356.jpg";
-import img4311 from "../assets/agrofood/7A6A9360.jpg";
-import img4312 from "../assets/agrofood/7A6A9492.jpg";
-import img4313 from "../assets/agrofood/7A6A9623.jpg";
-import img4314 from "../assets/agrofood/7A6A9698.jpg";
-
-import img1 from "../assets/ALEC/7A6A2062.JPG";
-import img2 from "../assets/ALEC/7A6A2132.JPG";
-import img3 from "../assets/ALEC/7A6A2268.JPG";
-import img4 from "../assets/ALEC/7A6A2310.JPG";
-import img5 from "../assets/ALEC/7A6A2391.JPG";
-import img6 from "../assets/ALEC/7A6A2498.JPG";
-import img7 from "../assets/ALEC/7A6A2638.JPG";
-import img8 from "../assets/ALEC/7A6A2662.JPG";
-import img9 from "../assets/ALEC/7A6A2670.JPG";
-import img10 from "../assets/ALEC/7A6A2721.JPG";
-
-import imgfn1 from "../assets/Fintex/7A6A9177.JPG";
-import imgfn2 from "../assets/Fintex/7A6A9186.JPG";
-import imgfn3 from "../assets/Fintex/7A6A9285.JPG";
-import imgfn4 from "../assets/Fintex/7U3A8296.JPG";
-
-import imgGM1 from "../assets/Gambela/IRC Gambela 2/4B6A8097.JPG";
-import imgGM2 from "../assets/Gambela/IRC Gambela 2/006A0965.JPG";
-import imgGM3 from "../assets/Gambela/IRC Gambela 2/006A0997.JPG";
-import imgGM4 from "../assets/Gambela/IRC Gambela 2/006A1054.JPG";
-import imgGM5 from "../assets/Gambela/IRC Gambela 2/006A1066.JPG";
-import imgGM6 from "../assets/Gambela/IRC Gambela 2/006A1163.JPG";
-import imgGM7 from "../assets/Gambela/IRC Gambela 2/006A1193.JPG";
-import imgGM8 from "../assets/Gambela/IRC Gambela 2/006A1249.JPG";
-import imgGM9 from "../assets/Gambela/IRC Gambela 2/006A1277.JPG";
-import imgGM10 from "../assets/Gambela/IRC Gambela 2/006A1358.JPG";
-import imgGM11 from "../assets/Gambela/IRC Gambela 2/006A1373.JPG";
-import imgGM12 from "../assets/Gambela/IRC Gambela 2/006A1404.JPG";
-import imgGM13 from "../assets/Gambela/IRC Gambela 2/006A1449.JPG";
-
-import imghd1 from "../assets/Deder/IRC Harere Deder/4B6A4935.JPG";
-import imghd2 from "../assets/Deder/IRC Harere Deder/4B6A5197.JPG";
-import imghd3 from "../assets/Deder/IRC Harere Deder/4B6A5231.JPG";
-import imghd4 from "../assets/Deder/IRC Harere Deder/006A0688.JPG";
-import imghd5 from "../assets/Deder/IRC Harere Deder/006A1077.JPG"; 
-
-import imgdd21 from "../assets/Deder/IRC Deder 2/006A0660.JPG"; 
-import imgdd22 from "../assets/Deder/IRC Deder 2/006A1347.JPG"; 
-import imgdd23 from "../assets/Deder/IRC Deder 2/006A1540.JPG"; 
-
-
-import imgcn1 from "../assets/Conso/IRC Conso/4B6A5747.JPG";
-import imgcn2 from "../assets/Conso/IRC Conso/4B6A5799.JPG"; 
-import imgcn3 from "../assets/Conso/IRC Conso/4B6A5896.JPG"; 
-import imgcn4 from "../assets/Conso/IRC Conso/4B6A5952.JPG";  
-import imgcn5 from "../assets/Conso/IRC Conso/4B6A5994.JPG"; 
-import imgcn6 from "../assets/Conso/IRC Conso/4B6A5994.JPG"; 
-import imgcn7 from "../assets/Conso/IRC Conso/4B6A6147.JPG"; 
-import imgcn8 from "../assets/Conso/IRC Conso/4B6A6218.JPG"; 
-import imgcn9 from "../assets/Conso/IRC Conso/006A0239.JPG"; 
-import imgcn10 from "../assets/Conso/IRC Conso/006A0328.JPG"; 
-import imgcn11 from "../assets/Conso/IRC Conso/006A0726.JPG"; 
-
-import imgcn21 from "../assets/Conso/IRC Conso 2/4B6A6274.JPG";
-import imgcn22 from "../assets/Conso/IRC Conso 2/4B6A6311.JPG";
-import imgcn23 from "../assets/Conso/IRC Conso 2/4B6A6385.JPG";
-import imgcn24 from "../assets/Conso/IRC Conso 2/4B6A6413.JPG";
-import imgcn25 from "../assets/Conso/IRC Conso 2/006A0171.JPG";
-import imgcn26 from "../assets/Conso/IRC Conso 2/006A0674.JPG";
-import imgcn27 from "../assets/Conso/IRC Conso 2/006A0230.JPG";
 
 
 
@@ -118,15 +182,42 @@ const worksData = [
   //   videoUrl: null,
   // },
   // Commercials (no video yet)
-  // {
-  //   id: 2,
-  //   title: "TV Commercial Shoot",
-  //   service: "Commercials & Ads",
-  //   image: work2,
-  //   description: "Creative commercial video for TV advertisement.",
-  //   details: "30-second TV ad campaign boosting sales by 40%.",
-  //   videoUrl: null,
-  // },
+  {
+    id: 1,
+    title: "Advertising Reality Real estate",
+    service: "Commercials & Ads",
+    image: work1,
+    description: "Creative commercial video for Reality Real estate.",
+    details: "",
+    videoUrl: "https://www.youtube.com/embed/jw60BIg0vxI",
+    images: [
+      imgr1,
+      imgr2,
+      imgr3,
+      imgr4,
+      imgr5,
+      imgr6,
+      imgr7,
+    ],
+  },
+  {
+    id: 2,
+    title: "Reality real estate AD",
+    service: "Commercials & Ads",
+    image: work2,
+    description: "Creative commercial video for Reality Real estate.",
+    details: "",
+    videoUrl: "https://youtube.com/embed/XpTz9li-Q54",
+    images: [
+      imgr1,
+      imgr2,
+      imgr3,
+      imgr4,
+      imgr5,
+      imgr6,
+      imgr7,
+    ],
+  },
 
   // 🎥 EVENTS
   {
@@ -168,17 +259,21 @@ const worksData = [
   },
   {
     id: 4,
-    title: "FINTEX Furniture Interior Millennium Hall",
+    title: "Air Traffic Controllers Day",
     service: "Event Coverage & Live Streaming",
     image: work4,
-    description: "Interior design expo coverage.",
-    details: "Covered FINTEX event at Millennium Hall.",
-    videoUrl: "https://www.youtube.com/embed/WmctL5KlZaY",
+    description: "Covered air traffic controllers day with some highlight",
+    details: "Covered air traffic controllers day",
+    videoUrl: "https://www.youtube.com/embed/AWyHreRf1l0",
     images: [
-      imgfn1,
-      imgfn2,
-      imgfn3,
-      imgfn4
+      imgav1,
+      imgav2,
+      imgav3,
+      imgav4,
+      imgav5,
+      imgav6,
+      imgav7,
+
     ],
   },
   {
@@ -207,32 +302,49 @@ const worksData = [
  
   {
     id: 6,
-    title: "Go To Ethiopia",
+    title: "Midroc Family Day Event",
     service: "Event Coverage & Live Streaming",
-    image: work1,
-    description: "Promotional tourism event video.",
-    details: "Produced 'Go To Ethiopia' event coverage.",
-    videoUrl: "https://www.youtube.com/embed/ZuZMBg6HXHU",
+    image: work6,
+    description: "Covered Midroc family day ",
+    details: "Produced 'midroc family day event' event coverage.",
+    videoUrl: "https://www.youtube.com/embed/coLjjE5AJxs",
+    images: [
+      imgm1,
+      imgm2,
+      imgm3,
+      imgm4,
+      imgm5,
+      imgm6,
+      imgm7,
+      imgm8,
+    ],
   },
   {
     id: 7,
     title: "Ministry of Women and Social Affairs - Ethiopia",
     service: "Event Coverage & Live Streaming",
-    image: work1,
+    image: work11,
     description: "Official ministry event coverage.",
     details: "Produced official coverage for the Ministry.",
     videoUrl: "https://www.youtube.com/embed/BAIuvoLI0_E",
+    images: [
+      imgmw1,
+      imgmw2,
+      imgmw3,
+      imgmw4
+    ],
   },
+  
 
   // 🎬 DOCUMENTARIES
   {
     id: 8,
-    title: "Documentary IRC Gambela 2",
+    title: "EUTF Gambella Visibility Content Collection",
     service: "Documentaries & Narrative Films",
-    image: work6,
-    description: "IRC documentary in Gambela region.",
+    image: work8,
+    description: "Documentary in Gambela region.",
     details: "Produced humanitarian documentary in Gambela.",
-    videoUrl: "https://www.youtube.com/embed/oqeGdy0oKDE",
+    videoUrl: "https://www.youtube.com/embed/hxEi5tc8D7Q",
     images: [
       imgGM1,
       imgGM2,
@@ -251,47 +363,36 @@ const worksData = [
     ],
     
   },
-  {
-    id: 9,
-    title: "Documentary IRC Conso 2",
-    service: "Documentaries & Narrative Films",
-    image: work7,
-    description: "IRC documentary in Conso region.",
-    details: "Produced humanitarian documentary in Conso.",
-    videoUrl: "https://www.youtube.com/embed/9LtG_Uyo6VY",
-    images: [
-      imgcn21,
-      imgcn22,
-      imgcn23,
-      imgcn24,
-      imgcn25,
-      imgcn26,
-      imgcn27,
-    ],
-  },
+  // {
+  //   id: 9,
+  //   title: "GFFO Visibility Content Collection Project in Konso Zones",
+  //   service: "Documentaries & Narrative Films",
+  //   image: work7,
+  //   description: "Documentary in Conso region.",
+  //   details: "Produced humanitarian documentary in Conso.",
+  //   videoUrl: "https://www.youtube.com/embed/9LtG_Uyo6VY",
+  //   images: [
+  //     imgcn21,
+  //     imgcn22,
+  //     imgcn23,
+  //     imgcn24,
+  //     imgcn25,
+  //     imgcn26,
+  //     imgcn27,
+  //   ],
+  // },
   {
     id: 10,
-    title: "Documentary IRC Deder 2",
-    service: "Documentaries & Narrative Films",
-    image: work8,
-    description: "IRC documentary in Deder region.",
-    details: "Produced humanitarian documentary in Deder.",
-    videoUrl: "https://www.youtube.com/embed/0cNr_ontwyA",
-    images: [
-      imgdd21,
-      imgdd22,
-      imgdd23,
-    ],
-  },
-  {
-    id: 11,
-    title: "IRC Documentary Harere Deder",
+    title: "GFFO Visibility Content Collection Project in Oromia Region Deder",
     service: "Documentaries & Narrative Films",
     image: work9,
-    description: "Humanitarian documentary.",
-    details: "Produced IRC documentary in Harere Deder.",
-    videoUrl: "https://www.youtube.com/embed/c0nKCILWa-A",
+    description: "Documentary in Deder region.",
+    details: "Produced humanitarian documentary in Deder.",
+    videoUrl: "https://www.youtube.com/embed/UHA5tTFoUnI",
     images: [
+      // imgdd21,
+      // imgdd22,
+      // imgdd23,
       imghd1,
       imghd2,
       imghd3,
@@ -299,14 +400,30 @@ const worksData = [
       imghd5,
     ],
   },
+  // {
+  //   id: 11,
+  //   title: "Documentary Harere Deder",
+  //   service: "Documentaries & Narrative Films",
+  //   image: work9,
+  //   description: "Humanitarian documentary.",
+  //   details: "Produced Documentary in Harere Deder.",
+  //   videoUrl: "https://www.youtube.com/embed/c0nKCILWa-A",
+  //   images: [
+  //     imghd1,
+  //     imghd2,
+  //     imghd3,
+  //     imghd4,
+  //     imghd5,
+  //   ],
+  // },
   {
     id: 12,
-    title: "IRC Documentary Conso",
+    title: "GFFO Visibility Content Collection Project in Konso Zones",
     service: "Documentaries & Narrative Films",
     image: work10,
-    description: "IRC documentary in Conso region.",
+    description: "Documentary in Conso region.",
     details: "Produced humanitarian documentary in Conso.",
-    videoUrl: "https://www.youtube.com/embed/HuCyzTzVavU",
+    videoUrl: "https://www.youtube.com/embed/YfF9xwzwQFI",
     images: [
       imgcn1,
       imgcn2,
@@ -321,7 +438,43 @@ const worksData = [
       imgcn11,
     ],
   },
-
+  {
+    id: 13,
+    title: "ETHIOPIA-(ET-RRM) in Hamer Dasenech Woreda",
+    service: "Documentaries & Narrative Films",
+    image: work13,
+    description: "Documentary in Hamer Dasenech Woreda.",
+    details: "Produced humanitarian documentary in Hamer Dasenech Woreda.",
+    videoUrl: "https://www.youtube.com/embed/QIcNmtjKHHs",
+    images: [
+      imgd1,
+      imgd2,
+      imgd3,
+      imgd4,
+      imgd5,
+      imgd6,
+      imgd7,
+    ],
+  },
+  {
+    id: 14,
+    title: "ETHIOPIA-(ET-RRM) In Awash Fentale",
+    service: "Documentaries & Narrative Films",
+    image: work14,
+    description: "Documentary in Awash Fentale region.",
+    details: "Produced humanitarian documentary in Awash Fentale.",
+    videoUrl: "https://www.youtube.com/embed/YfF9xwzwQFI",
+    images: [
+      imga1,
+      imga2,
+      imga3,
+      imga4,
+      imga5,
+      imga6,      
+      imga7,
+    ],
+  },
+  
   // Creative (no video yet)
   // {
   //   id: 13,

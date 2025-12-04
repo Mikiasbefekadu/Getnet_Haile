@@ -1,14 +1,22 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faYoutube,
+  faLinkedinIn,
+  faXTwitter,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import React from "react";
 
 export default function Footer() {
   const contactInfo = [
-    { icon: <Mail />, text: "gethaile4@gmail.com" },
-    { icon: <Phone />, text: "+251 988444333" },
-    { icon: <Phone />, text: "+251 911350992" },
-    { icon: <Phone />, text: "+251 955334055" },
-    { icon: <MapPin />, text: "Addis Ababa, Ethiopia" },
+    { icon: faEnvelope, text: "info@getnethailefilms.com", link: "mailto:info@getnethailefilms.com" },
+    { icon: faPhone, text: "+251 988444333", link: "tel:+251988444333" },
+    { icon: faPhone, text: "+251 911350992", link: "tel:+251911350992" },
+    { icon: faPhone, text: "+251 955334055", link: "tel:+251955334055" },
+    { icon: faMapMarkerAlt, text: "Addis Ababa, Ethiopia", link: "https://maps.google.com/maps?q=8.998818,38.785735&ll=8.998818,38.785735&z=16" },
   ];
 
   const quickLinks = [
@@ -19,73 +27,78 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: <Facebook />, to: "#" },
-    { icon: <Twitter />, to: "#" },
-    { icon: <Instagram />, to: "#" },
-    { icon: <Youtube />, to: "#" },
-    { icon: <Linkedin />, to: "#" },
+    { icon: faFacebookF, to: "https://www.facebook.com/profile.php?id=61581552699172" },
+    { icon: faInstagram, to: "https://www.instagram.com/getnethailefilms/" },
+    { icon: faYoutube, to: "https://www.youtube.com/@GetnetHailefilmproduction" },
+    { icon: faLinkedinIn, to: "https://www.linkedin.com/notifications/?filter=all" },
+    { icon: faTiktok, to: "https://www.tiktok.com/@getnethailefilms" },
+    { icon: faXTwitter, to: "https://x.com/getnetfilms" },
   ];
 
   return (
-    <footer className="bg-[#040d1c] text-white py-12 w-full px-6">
-      <div className="flex flex-col md:flex-row justify-between gap-12 max-w-[1440px] mx-auto">
+    <footer className="bg-[#040d1c] text-white py-6 w-full px-4">
+      <div className="flex flex-col md:flex-row justify-between gap-6 max-w-[1440px] mx-auto">
 
         {/* Left Section */}
-        <div className="flex flex-col gap-6 md:w-1/2">
-          <h2 className="text-2xl md:text-3xl font-bold">Getnet Haile Films</h2>
-
-          <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-4 md:w-1/3">
+          <h2 className="text-xl md:text-2xl font-bold">Getnet Haile Films</h2>
+          <div className="flex flex-col gap-2 text-xs">
             {contactInfo.map((info, idx) => (
-              <div key={idx} className="flex items-center gap-3">
-                <div className="w-10 h-10 flex items-center justify-center border border-white rounded-full">
-                  {info.icon}
+              <div key={idx} className="flex items-center gap-2">
+                <div className="w-6 h-6 flex items-center justify-center border border-white rounded-full">
+                  <FontAwesomeIcon icon={info.icon} />
                 </div>
-                <span className="text-white">{info.text}</span>
+                {info.link ? (
+                  <a
+                    href={info.link}
+                    target={info.link.startsWith("http") ? "_blank" : undefined}
+                    rel={info.link.startsWith("http") ? "noopener noreferrer" : undefined}
+                    className="!text-white hover:!text-yellow-400 transition-colors text-xs"
+                  >
+                    {info.text}
+                  </a>
+                ) : (
+                  <span className="text-white text-xs">{info.text}</span>
+                )}
               </div>
             ))}
           </div>
         </div>
 
-        {/* Right Section */}
-        <div className="flex flex-col md:items-end gap-6 md:w-1/2">
-          {/* Quick Links */}
-          <div className=" text-white flex flex-col md:items-end gap-2 ">
-            <h3 className="font-semibold text-lg text-white pr-46">Quick Links</h3>
-            <div className="flex flex-col md:flex-row gap-4">
-              {quickLinks.map((link, idx) => (
-                <Link
-                  key={idx}
-                  to={link.to}
-                  className=" !text-white hover:text-yellow-400 transition-colors"
-                >
-                  {link.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* Social Links */}
-          <div className="flex flex-col md:items-end gap-2 pr-7">
-            <h3 className="font-semibold text-lg pr-42">Follow Us</h3>
-            <div className="flex gap-3 flex-wrap justify-start md:justify-end">
-              {socialLinks.map((social, idx) => (
-                <a
-                  key={idx}
-                  href={social.to}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 flex items-center justify-center border border-white rounded-full text-white hover:text-yellow-400 hover:border-yellow-400 transition-colors"
-                >
-                  {React.cloneElement(social.icon, { color: "white", size: 20 })}
-                </a>
-              ))}
-            </div>
+        {/* Right Section (Quick Links) */}
+        <div className="hidden md:flex absolute right-4 flex-col items-end">
+          <h3 className="font-semibold text-sm">Quick Links</h3>
+          <div className="flex flex-wrap gap-2 mt-4 justify-end">
+            {quickLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                to={link.to}
+                className="!text-white hover:!text-yellow-400 transition-colors text-xs"
+              >
+                {link.name}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
 
+      {/* Social Links in the Middle */}
+      <div className="flex justify-center gap-2 mt-4">
+        {socialLinks.map((social, idx) => (
+          <a
+            key={idx}
+            href={social.to}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-7 h-7 flex items-center justify-center border border-white rounded-full !text-white hover:text-yellow-400 hover:border-yellow-400 transition-colors"
+          >
+            <FontAwesomeIcon icon={social.icon} size="sm" />
+          </a>
+        ))}
+      </div>
+
       {/* Footer Bottom */}
-      <div className="mt-10 text-center text-gray-400 text-sm">
+      <div className="mt-4 text-center text-gray-400 text-xs">
         &copy; {new Date().getFullYear()} Getnet Haile Films. All rights reserved.
       </div>
     </footer>

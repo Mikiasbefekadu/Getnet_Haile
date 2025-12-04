@@ -10,6 +10,8 @@ export default function Navbar() {
     { name: "Home", to: "/" },
     { name: "About Us", to: "/about" },
     { name: "Portfolio", to: "/portfolio" },
+    // { name: "Client Testimony", to: "/Testimony" },
+
     { name: "Contact", to: "/contact" },
     // { name: "Services", to: "#services" },
   ];
@@ -19,15 +21,19 @@ export default function Navbar() {
       <div className="w-[95%] backdrop-blur-lg border border-[rgb(23,97,126)] shadow-md rounded-md">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
-          <motion.a
-            href="/"
-            className="!text-white text-[clamp(1rem,2vw,1.5rem)] font-bold tracking-wide flex items-center"
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            🎬 Getnet Haile Films
-          </motion.a>
+<motion.a
+  href="/"
+  className="flex items-center space-x-2 !text-white font-bold"
+  initial={{ opacity: 0, x: -20 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5 }}
+>
+  <img src="/logo.png" alt="Logo" className="w-10 h-10 object-contain" />
+  <span className="text-[clamp(1rem,2vw,1.5rem)] tracking-wide">
+    Getnet Haile Film
+  </span>
+</motion.a>
+
 
           {/* Desktop Menu */}
           <motion.ul
@@ -78,7 +84,7 @@ export default function Navbar() {
               <li key={i}>
                 <Link
                   to={item.to}
-                  className="text-white text-[clamp(1rem,2.5vw,1.2rem)] font-medium"
+                  className="!text-white text-[clamp(1rem,2.5vw,1.2rem)] font-medium"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
