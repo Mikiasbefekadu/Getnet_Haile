@@ -3,7 +3,7 @@ name: Deploy to cPanel
 on:
   push:
     branches:
-      - main   # or master, depending on your branch
+      - main   # or master
 
 jobs:
   build:
@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
@@ -24,38 +24,31 @@ jobs:
       - name: Build React app
         run: npm run build
 
+      # Upload only the final build output
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: build
-          path: dist  # Change this if your build output directory is different
-
-      - name: Upload Assets as Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: assets
-          path: src/assets  # Ensure this path is correct for your assets
+          path: dist  # your Vite/React output
 
   deploy:
     runs-on: ubuntu-latest
-    needs: build  # Ensure this job runs after the build job
+    needs: build
 
     steps:
+      # Download final build output
       - name: Download Build Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: build
+          path: dist
 
-      - name: Download Assets
-        uses: actions/download-artifact@v2
-        with:
-          name: assets
-
+      # Deploy to cPanel through FTP
       - name: Upload via FTP to cPanel
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.CPANEL_FTP_SERVER }}
           username: ${{ secrets.CPANEL_FTP_USERNAME }}
           password: ${{ secrets.CPANEL_FTP_PASSWORD }}
-          local-dir: dist  # Ensure this matches your build output folder
-          server-dir: public_html/   # Adjust depending on your cPanel setup
+          local-dir: dist
+          server-dir: public_html/   # adjust if needed
