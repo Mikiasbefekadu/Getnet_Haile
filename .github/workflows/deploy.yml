@@ -41,7 +41,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build
-          path: dist
+          path: dist/
 
       # Deploy to cPanel through FTP
       - name: Upload via FTP to cPanel
