@@ -137,7 +137,6 @@ const imga1 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846348/a1_
 const imga2 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846350/a2_result_hnsqfl.webp";
 const imga3 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846350/a3_result_rkx5ir.webp";
 const imga4 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846351/a4_result_ovkbyn.webp";
-const imga5 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846354/a5_result_dhjksc.webp";
 const imga6 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846361/a6_result_fuuphn.webp";
 const imga7 = "https://res.cloudinary.com/dwxufxm7s/image/upload/v1764846362/a7_result_zkd2a3.webp";
 
@@ -463,7 +462,7 @@ const worksData = [
     image: work14,
     description: "Documentary in Awash Fentale region.",
     details: "Produced humanitarian documentary in Awash Fentale.",
-    videoUrl: "https://www.youtube.com/embed/YfF9xwzwQFI",
+    videoUrl: "https://youtu.be/3jbYqaWapFo",
     images: [
       imga1,
       imga2,
