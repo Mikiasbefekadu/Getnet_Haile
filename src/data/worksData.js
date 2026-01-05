@@ -461,7 +461,7 @@ const worksData = [
     image: work14,
     description: "Documentary in Awash Fentale region.",
     details: "Produced humanitarian documentary in Awash Fentale.",
-    videoUrl: "https://youtu.be/3jbYqaWapFo",
+    videoUrl: "https://www.youtube.com/embed/3jbYqaWapFo",
     images: [
       imga1,
       imga2,
