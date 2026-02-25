@@ -100,7 +100,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Getnet Haile Film
+            Gabi Film Production
           </motion.h1>
           <motion.p
             className="text-base sm:text-lg md:text-xl mb-6 max-w-2xl"
