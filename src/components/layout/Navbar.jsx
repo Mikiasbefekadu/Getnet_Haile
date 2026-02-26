@@ -30,7 +30,7 @@ export default function Navbar() {
 >
   <img src="/logo.png" alt="Logo" className="w-10 h-10 object-contain" />
   <span className="text-[clamp(1rem,2vw,1.5rem)] tracking-wide">
-    Gabi Film Production
+    gabi Film Production
   </span>
 </motion.a>
 
