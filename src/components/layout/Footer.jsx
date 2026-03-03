@@ -41,7 +41,7 @@ export default function Footer() {
 
         {/* Left Section */}
         <div className="flex flex-col gap-4 md:w-1/3">
-          <h2 className="text-xl md:text-2xl font-bold">Getnet Haile Films</h2>
+          <h2 className="text-xl md:text-2xl font-bold">Gabi Films Production</h2>
           <div className="flex flex-col gap-2 text-xs">
             {contactInfo.map((info, idx) => (
               <div key={idx} className="flex items-center gap-2">
@@ -99,7 +99,7 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="mt-4 text-center text-gray-400 text-xs">
-        &copy; {new Date().getFullYear()} Getnet Haile Films. All rights reserved.
+        &copy; {new Date().getFullYear()} Gabi Films Production. All rights reserved.
       </div>
     </footer>
   );

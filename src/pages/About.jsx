@@ -86,7 +86,7 @@ export default function AboutPage() {
           About Us
         </h1>
         <p className="text-gray-300 max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl mx-auto text-[clamp(0.9rem,1.5vw,1.1rem)] leading-relaxed whitespace-normal break-words">
-          Getnet Haile Film Production brings stories to life through
+          Gabi Films Production brings stories to life through
           high-quality video and photography. Our mission, vision, and approach
           define the work we do for our clients.
         </p>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 Mission
               </h2>
               <p className="text-gray-300 text-[clamp(0.85rem,1.5vw,1rem)] leading-relaxed whitespace-normal break-words max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
-                At Getnet Haile Film Production, our mission is to bring stories
+                At Gabi Films Production, our mission is to bring stories
                 to life through the art of video and photo. We are dedicated to
                 crafting high-quality, engaging, and impactful content that
                 connects with audiences and drives results.
