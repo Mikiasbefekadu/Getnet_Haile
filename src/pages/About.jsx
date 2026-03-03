@@ -45,7 +45,7 @@ export default function AboutPage() {
     </div>
   );
 
-  // Hook-based image loader
+  // Hook-based image loade
   const LazyImage = ({ src, alt }) => {
     const [loading, setLoading] = useState(true);
 
