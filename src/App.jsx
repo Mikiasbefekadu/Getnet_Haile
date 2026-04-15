@@ -4,7 +4,7 @@ import AboutPage from "./pages/About.jsx";
 import ContactPage from "./pages/Contact.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 import PortfolioDetailPage from "./pages/PortfolioDetailPage.jsx";  
-// import TestimonialPage from "./pages/TestimonialPage.jsx";  
+import TestimonialPage from "./pages/TestimonialPage.jsx";  
                                 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Route path="/about" element={<AboutPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/portfolio" element={<PortfolioPage />} />
-      {/* <Route path="/Testimony" element={<TestimonialPage />} /> */}
+      <Route path="/Testimony" element={<TestimonialPage />} />
       <Route path="/portfolio/:id" element={<PortfolioDetailPage />} />
       
 

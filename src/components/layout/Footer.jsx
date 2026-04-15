@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   const contactInfo = [
-    { icon: faEnvelope, text: "info@getnethailefilms.com", link: "mailto:info@getnethailefilms.com" },
+    { icon: faEnvelope, text: "info@gabifilmproduction.com", link: "mailto:info@gabifilmproduction.com" },
     { icon: faPhone, text: "+251 988444333", link: "tel:+251988444333" },
     { icon: faPhone, text: "+251 911350992", link: "tel:+251911350992" },
     { icon: faPhone, text: "+251 955334055", link: "tel:+251955334055" },
