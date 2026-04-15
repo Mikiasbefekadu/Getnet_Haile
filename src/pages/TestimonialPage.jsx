@@ -145,7 +145,7 @@ export default function TestimonialPage() {
               <img src={testimonials[1].image} alt="" className="w-10 h-10 rounded-full border-2 border-[#040d1c] object-cover opacity-80" />
             </div>
             <span className="text-gray-400 text-sm">
-              Trusted by <span className="text-white font-semibold">2+ organizations</span>
+              Trusted by <span className="text-white font-semibold">10+ organizations</span>
             </span>
           </div>
         </motion.div>
