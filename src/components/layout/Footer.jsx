@@ -27,12 +27,12 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: faFacebookF, to: "https://www.facebook.com/profile.php?id=61581552699172" },
-    { icon: faInstagram, to: "https://www.instagram.com/getnethailefilms/" },
-    { icon: faYoutube, to: "https://www.youtube.com/@GetnetHailefilmproduction" },
+    { icon: faFacebookF, to: "https://web.facebook.com/profile.php?id=61581552699172" },
+    { icon: faInstagram, to: "https://www.instagram.com/gabifilmproduction/?hl=en" },
+    { icon: faYoutube, to: "https://www.youtube.com/@Gabifilmproduction/" },
     { icon: faLinkedinIn, to: "https://www.linkedin.com/notifications/?filter=all" },
-    { icon: faTiktok, to: "https://www.tiktok.com/@getnethailefilms" },
-    { icon: faXTwitter, to: "https://x.com/getnetfilms" },
+    { icon: faTiktok, to: "tiktok.com/@gabifilm" },
+    // { icon: faXTwitter, to: "https://x.com/getnetfilms" },
   ];
 
   return (
