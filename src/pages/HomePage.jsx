@@ -285,6 +285,7 @@
 //     </div>
 //   );
 // }
+
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "../components/ui/Button";
@@ -365,28 +366,29 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="min-h-screen w-full flex flex-col bg-[#040d1c] text-white relative overflow-hidden">
+    <div className="w-screen min-h-screen flex flex-col bg-[#040d1c] text-white relative overflow-x-hidden">
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative w-full min-h-[90vh] sm:min-h-screen overflow-hidden">
-        {/* Background Video */}
+      <section className="relative w-screen h-[90vh] sm:h-screen overflow-hidden">
+        {/* Background Video - explicit full width/height */}
         <video
-          className="absolute top-0 left-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover"
           autoPlay
           muted
           loop
           playsInline
+          style={{ width: '100vw', height: '100%' }}
         >
           <source src={bgVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        {/* Overlay - explicit full coverage */}
+        <div className="absolute inset-0 w-full h-full bg-black/40"></div>
 
-        {/* Hero Content - Changed from flex center to absolute positioning with padding */}
-        <div className="absolute inset-0 z-10 flex flex-col items-center text-center px-4 sm:px-6 pt-42 sm:pt-40">
+        {/* Hero Content */}
+        <div className="absolute inset-0 z-10 flex flex-col items-center text-center px-4 sm:px-6 pt-32 sm:pt-40 w-full">
           <motion.h1
             className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 text-white leading-tight"
             initial={{ opacity: 0, y: -30 }}
