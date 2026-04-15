@@ -19,7 +19,7 @@ export default function TestimonialPage() {
       quote:
         "Gabi Film Production played a key role in producing high-quality visual content for our organization. Their attention to detail, artistic vision, and ability to understand and execute our objectives were evident throughout every stage. The final outputs not only met but exceeded our expectations.",
       image: "assets/LogoCarousel/rescue-removebg-preview.png",
-      event: "Campaign Production",
+      event: "Documentary",
     },
     {
       name: "Ethiopian Civil Aviation Authority",
