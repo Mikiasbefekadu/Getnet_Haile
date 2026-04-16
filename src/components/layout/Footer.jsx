@@ -4,7 +4,6 @@ import {
   faInstagram,
   faYoutube,
   faLinkedinIn,
-  faXTwitter,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +15,7 @@ export default function Footer() {
     { icon: faPhone, text: "+251 988444333", link: "tel:+251988444333" },
     { icon: faPhone, text: "+251 911350992", link: "tel:+251911350992" },
     { icon: faPhone, text: "+251 955334055", link: "tel:+251955334055" },
-    { icon: faMapMarkerAlt, text: "Addis Ababa, Ethiopia", link: "https://maps.google.com/maps?q=8.998818,38.785735&ll=8.998818,38.785735&z=16" },
+    { icon: faMapMarkerAlt, text: "Addis Ababa, Ethiopia", link: "https://maps.app.goo.gl/7PbStsnJpivZAD5g6" },
   ];
 
   const quickLinks = [
@@ -31,8 +30,8 @@ export default function Footer() {
     { icon: faInstagram, to: "https://www.instagram.com/gabifilmproduction/?hl=en" },
     { icon: faYoutube, to: "https://www.youtube.com/@Gabifilmproduction/" },
     { icon: faLinkedinIn, to: "https://www.linkedin.com/notifications/?filter=all" },
-    { icon: faTiktok, to: "tiktok.com/@gabifilm" },
-    // { icon: faXTwitter, to: "https://x.com/getnetfilms" },
+    { icon: faTiktok, to: "https://www.tiktok.com/@gabifilm" },
+    // { icon: faXTwitter, to: "https://x.com/getnetfilms" },x`
   ];
 
   return (
